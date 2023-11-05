@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body,html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .box{
+        /* cach5 */
+        /* --height: 200px;
+        text-align: center;
+        height: var(--height); */
+
+        background-color: orange;
+        height: 100px;
+
+        /* cach1 */
+        /*Kethua
+        text-align: center;
+        line-height: 100px; */
+        
+        /* cach2(co the can giua nhieu item) */
+        /* display: flex; */
+
+        /* cach3 (linh dong hon cach 2)*/
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+
+        /* cach4 */
+        /* position: relative; */
+
+        /* test */
+        display: flex;
+    }
+    h3{
+        /* cach1 (co the ke thua)*/
+        /* text-align: center;
+        line-height: 100px; */
+
+        /* cach2 */
+        /* margin: auto; */
+
+        /* cach4 (chuan hon)*/
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+
+        /* cach5  */
+        /* line-height: var(--height); */
+
+        /* test */
+        margin: auto;
+        position: relative;
+    }
+
+    h3::after{
+        position: absolute;
+        left: -10px;
+        content: "";
+        border-left: 3px solid #333;
+        height: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+</style>
+<body>
+    <div class="box">
+        <h3>CENTER ME</h3>
+    </div>
+</body>
+</html>

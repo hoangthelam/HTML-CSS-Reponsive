@@ -1,0 +1,12 @@
+các phần có trong website:
+
+1. Header: đầu trang
+2. Navigation: điều hướng
+3. Breadcrumb: map
+4. siderbar: thanh menu (trái or phải)
+5. slider
+6. Banner
+7. content: nội dung trang
+8. footer: chân trang (cuối)
+
+template: https://www.w3schools.com/w3css/tryw3css_templates_band.htm#

@@ -1,0 +1,9 @@
+
+:root{
+    --text-color: red; /* đặt biến giả */
+}
+/* su dung bien(tac dung khi muon thay doi nhanh moi noi) */
+h1{
+    color: var(--text-color);
+}
+

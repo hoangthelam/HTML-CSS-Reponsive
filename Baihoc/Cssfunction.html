@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: rgb(76, 61, 61);
+    }
+    box{
+        width: calc(80% + 20px);
+    }
+    a::after{
+        content: " (" attr(href) ")";
+    }
+</style>
+<body>
+    <div>
+    <h1>Css functions</h1>
+    <div class="box">
+        <h2>Css</h2>
+    </div>
+    <a href="https://fullstack.edu.vn">học lập trình(https://fullstack.edu.vn)</a>
+    <ul>
+        <li>var()</li>
+        <li>linear-gradient()</li>
+        <li>rgba()</li>
+        <li>rgb</li>
+        <li>calc</li><!--giúp tính toán-->
+        <li>attr()</li><!--Cập nhật-->
+    </ul>
+</div>
+<div>
+    <h1>Css pseudo-classes</h1><!--tìm hiểu thêm-->
+    <ul>
+        <li>:root</li><!--lớp giả-->
+        <li>:hover</li><!--kích hoạt khi di chuyển vào-->
+        <li>:active</li><!--bấm vào -->
+        <li>:first-child</li><!--Sử dụng trong ds: đầu-->
+        <li>:last-child</li><!--cuối-->
+    </ul>
+</div>
+<div>
+    <h1>Css pseudo-elements</h1><!--phần tử giả-->
+    <ul>
+        <li>::before</li>
+        <li>::after</li>
+        <li>::first-letter</li><!--chữ cái đầu tiên-->
+        <li>::first-line</li><!--dòng đầu tiên-->
+        <li>::selection</li><!--sự lựa chọn(khi bôi đen)-->
+    </ul>
+</div>
+<div>
+    <h1>Thuộc tính padding</h1>
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+</div>
+</body>
+</html>
